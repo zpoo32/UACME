@@ -9,3 +9,5 @@ clone_folder: c:\projects\uacme
 build:
   project: Source/uacme.sln
   verbosity: normal
+artifacts:
+  - path: ".\output\x64\Release\*"
